@@ -21,6 +21,7 @@ class StreamShow extends Component {
   }
 
   componentWillUnmount() {
+    console.log(this.player);
       this.player.destroy();
   }
 
